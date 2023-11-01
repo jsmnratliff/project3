@@ -1,0 +1,15 @@
+{
+  "name": "project3",
+  "version": "1.0.0",
+  "description": "MOD3 Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jasmine Ratliff",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.0"
+  }
+}
