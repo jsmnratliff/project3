@@ -1,6 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
-
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Login from './pages/Login/Login';
 import Profile from './pages/Profile/Profile';
 
@@ -19,14 +18,12 @@ function App() {
 
                 <hr />
 
-                <Switch>
-                    <Route exact path="/login">
-                        <Login />
-                    </Route>
-                    <Route exact path="/profile">
-                        <Profile />
-                    </Route>
-                </Switch>
+                <Route path="/login">
+                    <Login />
+                </Route>
+                <Route path="/profile">
+                    <Profile />
+                </Route>
             </div>
         </Router>
     );

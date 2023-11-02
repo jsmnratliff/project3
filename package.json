@@ -18,6 +18,7 @@
     "react-router-dom": "^6.18.0"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "latest",
     "react-scripts": "^5.0.1"
   },
   "browserslist": {
